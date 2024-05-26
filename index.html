@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:
+        wght@400;700&family=Roboto+Slab:wght@400;700&family=Lato:wght@400;700&family=Dancing+Script:wght@400;700&family=Montserrat:wght@400;700&family=Abril+Fatface&family=Pacifico&family=Raleway:wght@400;700&display=swap" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="main">
+        <div class="header">
+            <h1><span class="highlight">LA'S&ensp;COFFEE&ensp;SHOP</span></h1>
+
+        </div>
+
+        <div class="navigation">
+            <nav>
+                <ul id="nav-links">
+                    <li><a href="#" class="active" onclick="showContent('home', this)">Home</a></li>
+                    <li><a href="#" onclick="showContent('menu', this)">Menu</a></li>
+                    <li><a href="#" onclick="showContent('music', this)">Music</a></li>
+                    <li><a href="#" onclick="showContent('jobs', this)">Jobs</a></li>
+                </ul>                
+            </nav>
+        </div>
+        <div id="home" class="content">
+            <p id="content1">Welcome to LA's Coffee Shop</p>
+            <p id="content2">Where every cup tells a story. Nestled in the heart of Manila City, 
+            <br>our cozy café is a haven for coffee enthusiasts and casual drinkers alike. Whether you're
+            <br>in need of a quick pick-me-up or a relaxing place to unwind, we've got you covered.
+            <br>
+            <br>We take pride in serving only the finest quality coffee, sourced from the best coffee farms around the world.
+            <br>Each cup is expertly brewed to perfection, ensuring that every sip is a delight to the senses. Whether
+            <br>you prefer a classic espresso or a latte, our menu has something for everyone.
+            <br>
+            <br>In addition to our wide range of coffee options, we also offer a selection of delicious snacks to
+            <br>complement your drink, our menu is sure to satisfy your cravings.
+            <br>
+            <br>Location: <span>Teresa St., Sta. Mesa, Manila</span>
+            </p>
+        </div>
+
+        <div id="menu" class="content">
+            <div class="menu-content">
+                <div class="menu-a">
+                    <h3>Hot Beverages</h3>
+                    <p>Espresso ------------------ 45
+                    <br>Americano ---------------- 60
+                    <br>Cappucino ---------------- 70
+                    <br>Cafe Latte ----------------- 75
+                    <br>Cafe Mocha --------------- 80
+                    <br>Irish Coffee ---------------- 85
+                    <br>Hot Chocolate ------------- 75
+                    </p>
+                </div>
+                <div class="menu-b">
+                    <h3>Cold Beverages</h3>
+                    <p>Iced Americano ------------ 55
+                    <br>Iced Cappucino ------------ 65
+                    <br>Iced Latte ------------------ 65
+                    <br>Iced Mocha ---------------- 70
+                    <br>Choco Frappe -------------- 85
+                    <br>Caramel Frappe ------------ 90
+                    <br>Cafe Frappe ---------------- 80
+                    <br>Hazelnut Frappe ----------- 90
+                    </p>
+                </div>
+                <div class="menu-c">
+                    <h3>Snacks</h3>
+                    <p>Cinnamon Roll --------------- 80
+                        <br>Banana Cake ---------------- 70
+                        <br>Choco Muffin ---------------- 65
+                        <br>Tuna Bread ------------------ 50
+                        <br>Donut ----------------------- 45
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="music" class="content">
+            <div class ="music-content">
+                <div class="music-pic"><img src="music-pic.png"></div>
+                <div class="spotify"><img src="spotify.png"></div>
+                <h3>Public Playlist</h3>
+                <h2>Coffee Playlist</h2>
+                <p>Life changes. Places of old fade, while new ones come into focus. People come and go. Experiences pass
+                <br>into distant memories, while new ones become the present. New music comes and goes......Yet my cup of
+                <br>coffee doesn't change, and I kinda like that.
+                </p>
+                <h4>To listen to our playlist. <a href="https://open.spotify.com/playlist/5kMNdBzhzf56b4pdHQRbJo?si=3bdd7cb2e6144289">Click here!</a></h4>
+            </div>
+        </div>
+
+        <div id="jobs" class="content">
+            <div class="jobs-content">
+                <h1>Looking for a job? Apply now.</h1>
+                <div class="job1">
+                    <h2>Barista</h2>
+                    <ul>
+                        <li>Previous experience as a barista or in a similar role preferred</li>
+                        <li>Knowledge of coffee types and brewing methods</li>
+                        <li>Ability to handle high-volume coffee orders</li>
+                        <li>Excellent customer service skills</li>
+                        <li>Good communication and interpersonal skills</li>
+                        <li>Ability to work in a fast-paced environment</li>
+                        <li>Attention to detail</li>
+                        <li>Ability to work well in a team</li>
+                        <li>Flexibility to work various shifts, including weekends and holidays</li>
+                    </ul>
+                </div>
+                <div class="job2">
+                    <h2>Delivery Rider</h2>
+                    <ul>
+                    <li>Valid driver's license</li>
+                    <li>Clean driving record</li>
+                    <li>Previous experience as a delivery rider or driver preferred</li>
+                    <li>Knowledge of local roads and neighborhoods</li>
+                    <li> Good time management skills</li>
+                    <li>Ability to work in a fast-paced environment</li>
+                    <li>Excellent customer service skills</li>
+                    <li>Ability to lift and carry heavy items</li>
+                    <li> Flexibility to work various shifts, including weekends and evenings</li>
+                    </ul>
+                </div>
+                <p>Interested in applying? Send your resume via email: <a href="mailto:lacoffeeshop@gmail.com">lacoffeeshop@gmail.com</a></p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Copyright &copy 2024 LA's Coffee Shop
+            <br><span><a href="mailto:lacoffeeshop@gmail.com">lacoffeeshop@gmail.com</a></span></p>
+        </div>
+    </div>
+
+    <script>
+        function showContent(id, link) {
+            var contents = document.getElementsByClassName('content');
+            for (var i = 0; i < contents.length; i++) {
+                contents[i].style.display = 'none';
+            }
+            document.getElementById(id).style.display = 'block';
+
+            var navLinks = document.querySelectorAll('#nav-links a');
+            for (var i = 0; i < navLinks.length; i++) {
+                navLinks[i].classList.remove('active');
+            }
+            link.classList.add('active');
+        }
+        showContent('home');
+    </script>
+</body>
+</html>

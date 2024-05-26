@@ -1,0 +1,350 @@
+body {
+    width: 100%;
+    height: auto;
+    background-color: #ffffcc;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background-image: url(bg.png);
+}
+
+.main {
+    margin: 0px;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 12% 88%;
+    grid-template-rows: 13% 74% 13%;
+    justify-content: center;
+}
+
+.highlight {
+    color: white;
+} 
+
+
+/* NAVIGATION */
+.navigation {
+    background-color: rgb(0, 0, 0);
+    padding-top: 100px;
+    grid-column-start:  1;
+    grid-column-end:  2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 5;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 90px;
+    padding-left: 65px;
+    padding-top: 100px;
+}
+
+nav a:hover {
+    color: #c09258;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+#nav-links a.active {
+    color: #c09258;
+}
+
+/* HEADER */
+
+.header {
+    background-color: rgba(0, 0, 0, 0.45);
+    text-align: center;
+    font-size: 30px;
+    font-family: "EB Garamond", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start:  2;
+    grid-column-end:  3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    color: white;
+    box-shadow: 0px 0px 30px rgba(240, 167, 98, 0.7);
+}
+
+/* HOME */
+.content {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 0px;
+    grid-column-start:  2;
+    grid-column-end:  3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+
+#content1 {
+    padding-top: 25px;
+    padding-left: 150px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    color:#c09258;
+}
+
+#content2 {
+    font-size: 23px;
+    padding-left: 150px;
+    font-weight: 400;
+    font-family: "Raleway", serif;
+    color:white;
+    line-height: 40px;
+}
+
+#content2 span {
+    color: #c09258;
+    font-weight: 700;
+}
+
+/* MENU */
+
+
+.menu-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.menu-content h3 {
+    color: #c09258;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    padding-top: 30px;
+}
+
+.menu-content p {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    font-family: "Raleway", sans-serif;
+    line-height: 50px;
+    font-weight: 400;
+}
+
+.menu-a, .menu-b, .menu-c {
+    width: 470px;
+    height: 600px;
+}
+
+
+/* MUSIC */
+
+.music-content {
+    width: 100%;
+    height: 100%;
+}
+
+.music-content img {
+    width: 325px;
+    height: 325px;
+    border-radius: 5%;
+}
+
+.music-pic {
+    position: absolute;
+    width: 325px;
+    height: 325px;
+    left: 390px;
+    top: 290px;
+}
+
+.spotify {
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    left: 1600px;
+    top: 110px;
+}
+
+.spotify img {
+    width: 300px;
+    height: 150px;
+}
+
+.music-content h3 {
+    position: absolute;
+    color: rgb(199, 197, 197);
+    font-family: "EB Garamond", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    left: 750px;
+    top: 280px;
+}
+
+.music-content h2 {
+    position: absolute;
+    color: white;
+    font-family: "EB Garamond", sans-serif;
+    font-weight: 700;
+    font-size: 110px;
+    left: 740px;
+    top: 230px;
+}
+
+
+.music-content p {
+    position: absolute;
+    color: rgb(214, 214, 214);
+    font-family: "EB Garamond", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    left: 750px;
+    top: 435px;
+}
+
+.music-content h4 {
+    position: absolute;
+    color: rgb(214, 214, 214);
+    font-family: "EB Garamond", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    left: 750px;
+    top: 543px;
+}
+
+#music a {
+    color: #c09258;
+    font-size: 28px; 
+  }
+  
+#music a:hover {
+    color: #1DD660; 
+  }
+  
+#music a:active {
+    color: #1DD660; 
+  }
+
+
+/* JOBS */
+
+
+.jobs-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.jobs-content h1 {
+    position: absolute;
+    color: #e9cba7;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.jobs-content p {
+    position: absolute;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px;
+    top: 720px;
+}
+
+.job1 {
+    position: relative;
+    width: 700px;
+    height: 570px;
+    top: 70px;
+}
+
+.job1 h2 {
+    color: #c09258;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+}
+
+.job1 ul {
+    color: #c6c6c6;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: left;
+    line-height: 45px;
+}
+
+.job2 {
+    position: relative;
+    width: 700px;
+    height: 570px;
+    top: 70px;
+}
+
+.job2 h2 {
+    color: #c09258;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+}
+
+.job2 ul {
+    color: #c6c6c6;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: left;
+    line-height: 45px;
+}
+
+#jobs a {
+    color: #e9cba7;
+    font-weight: 600;
+}
+#jobs a:hover {
+    color: #c09258;
+
+}
+
+
+/* FOOTER */
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.45);
+    text-align: center;
+    padding-top: 27px;
+    grid-column-start:  2;
+    grid-column-end:  3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.footer p, span {
+    color: white;
+}
+
+.footer a {
+    color: #e9cba7;
+}
+
+.footer a:hover {
+    color: #c09258;
+}
